@@ -1,0 +1,8 @@
+feedback = input("Enter feedback: ").lower()
+
+if "good" in feedback or "excellent" in feedback:
+    print("Positive Feedback")
+elif "bad" in feedback or "poor" in feedback:
+    print("Negative Feedback")
+else:
+    print("Neutral Feedback")
