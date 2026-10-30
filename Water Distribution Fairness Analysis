@@ -1,0 +1,3 @@
+def water_shortage(demand, supplied):
+    return max(0, demand - supplied)
+print(water_shortage(1000, 750))
