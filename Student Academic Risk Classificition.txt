@@ -1,0 +1,5 @@
+def classify_academic_risk(marks, attendance):
+    if marks < 40 or attendance < 75:
+        return "At Risk"
+    return "Low Risk"
+
